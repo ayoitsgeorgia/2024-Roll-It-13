@@ -10,6 +10,7 @@ def yes_no(question):
         else:
             print("You did not choose a valid response")
 
+
 # Main routine
 want_instructions = yes_no("Do you want to read the instructions? ")
 print(f"You chose {want_instructions}")
