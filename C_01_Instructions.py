@@ -13,7 +13,6 @@ def yes_no(question):
             print("Please enter yes / no")
 
 
-# Displays instructions
 def instructions():
     print(''')
     
@@ -48,7 +47,7 @@ print()
 print(" 🎲🎲 Roll It 13 🎲🎲 ")
 print()
 
-# ask user if they want to see instructions and display them if requested
+# loop for testing purposes
 
 want_instructions = yes_no("Do you want to read the instructions? ")
 
